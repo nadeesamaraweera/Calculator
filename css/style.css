@@ -198,7 +198,7 @@ body {
 @media (max-width: 194px){
     
   .calculator {
-    width: 110px;
+    width: 112px;
     height: 200px;
 
 
@@ -210,6 +210,8 @@ body {
     width: 30px;
     height: 30px;
     margin-left: -8px;
+    margin-top: -4vw;
+
 
     
   }
@@ -217,7 +219,8 @@ body {
   .input {
     padding: 10px;
     width: 117px;
-    margin-left: -13px;
+    margin-left: -13.5px;
+    font-size:16px;
   }
 
   .Buttons{
@@ -230,7 +233,7 @@ body {
 @media (max-width: 160px){
     
   .calculator {
-    width: 90px;
+    width: 96px;
     height: 180px;
 
 
@@ -239,21 +242,26 @@ body {
   button {
     font-size: 12px;
     padding: 1px;
-    width: 25px;
-    height: 25px;
-    margin-left: -8px;
+    width: 27px;
+    height: 27px;
+    margin-left: -11px;
+    margin-top: -7vw;
+
+
 
     
   }
 
   .input {
     padding: 10px;
-    width: 100px;
+    width: 104px;
     margin-left: -15px;
+    font-size:16px;
+
   }
 
   .Buttons{
-    grid-gap: 11px;
+    grid-gap: 14px;
   }
 }
   
@@ -270,10 +278,10 @@ body {
     button {
       font-size: 10px;
       padding: 1px;
-      width: 20px;
-      height: 20px;
-      margin-left: -8px;
-      margin-top: -5vw;
+      width: 22px;
+      height: 22px;
+      margin-left: -11px;
+      margin-top: -10vw;
 
   
       
@@ -283,10 +291,12 @@ body {
       padding: 10px;
       width: 80px;
       margin-left: -15px;
+      font-size: 12px;
+
     }
   
     .Buttons{
-      grid-gap: 11px;
+      grid-gap: 13px;
   
     }
     
